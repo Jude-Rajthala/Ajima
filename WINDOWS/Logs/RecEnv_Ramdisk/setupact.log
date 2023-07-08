@@ -1,0 +1,102 @@
+﻿2023-07-03 13:40:44, Info                         Starting enumeration of PnP devices.
+2023-07-03 13:40:44, Info                         Finished enumeration of PnP devices.
+2023-07-03 13:40:46, Info                         current OS: \\?\GLOBALROOT\Device\HarddiskVolume9\Recovery\WindowsRE\Winre.wim
+2023-07-03 13:40:46, Info                         Attempting to assign a drive letter for the source drive.
+2023-07-03 13:40:46, Error                        Failed to check OS architecture. 0x00000490[gle=0x00000002]
+2023-07-03 13:40:46, Info                         [recenv.exe] Enter WinReIsWimBootEnabled
+2023-07-03 13:40:46, Info                         [recenv.exe] Parameters: pszWinDir: D:\WINDOWS
+2023-07-03 13:40:46, Info                         [recenv.exe] RegLoadKey $OFFLINE$SYSTEM failed. Error: 0x3.
+2023-07-03 13:40:46, Info                         [recenv.exe] Exit WinReIsWimBootEnabled returns 0 with last error: 0x0
+2023-07-03 13:40:46, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:46, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE config file path: D:\WINDOWS\system32\Recovery\ReAgent.xml
+2023-07-03 13:40:46, Warning                      [recenv.exe] read xml file (D:\WINDOWS\system32\Recovery\ReAgent.xml) failed: 0x3
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentXMLParser::ParseConfigFile failed to read config xml file (0x3) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 784
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentXMLParser::ParseConfigFile (xml file: D:\WINDOWS\system32\Recovery\ReAgent.xml) returning 0x3
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentConfig::ParseConfigFile  returned with 0x3 
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentConfig::Init failed to init reagent xml parser (0x3) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 1921
+2023-07-03 13:40:46, Warning                      [recenv.exe] WinReGetConfigInternal failed to init agent config (0x3) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 155
+2023-07-03 13:40:46, Warning                      [recenv.exe] winre get config failed with error code 0x3
+2023-07-03 13:40:46, Info                         [recenv.exe] Exit WinReGetConfig return value: 0, last error: 0x3
+2023-07-03 13:40:46, Error                        WinReGetConfigEx failed. Error: 0x00000003[gle=0x00000003]
+2023-07-03 13:40:46, Error                        CRecoveryToolAction->Init() failed. Error: 0x00000003[gle=0x00000003]
+2023-07-03 13:40:46, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:46, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE config file path: D:\WINDOWS\system32\Recovery\ReAgent.xml
+2023-07-03 13:40:46, Warning                      [recenv.exe] read xml file (D:\WINDOWS\system32\Recovery\ReAgent.xml) failed: 0x3
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentXMLParser::ParseConfigFile failed to read config xml file (0x3) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 784
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentXMLParser::ParseConfigFile (xml file: D:\WINDOWS\system32\Recovery\ReAgent.xml) returning 0x3
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentConfig::ParseConfigFile  returned with 0x3 
+2023-07-03 13:40:46, Warning                      [recenv.exe] ReAgentConfig::Init failed to init reagent xml parser (0x3) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 1921
+2023-07-03 13:40:46, Warning                      [recenv.exe] WinReGetConfigInternal failed to init agent config (0x3) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 155
+2023-07-03 13:40:46, Warning                      [recenv.exe] winre get config failed with error code 0x3
+2023-07-03 13:40:46, Info                         [recenv.exe] Exit WinReGetConfig return value: 0, last error: 0x3
+2023-07-03 13:40:46, Error                        WinReGetConfigEx failed. Error: 0x00000003[gle=0x00000003]
+2023-07-03 13:40:46, Error                        CRecoveryToolAction->Init() failed. Error: 0x00000003[gle=0x00000003]
+2023-07-03 13:40:46, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:46, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:46, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE config file path: \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:46, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:46, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk1\partition5\Recovery\WindowsRE
+2023-07-03 13:40:46, Info                         [recenv.exe] System is WimBoot: FALSE
+2023-07-03 13:40:46, Info                         [recenv.exe] Exit WinReGetConfig return value: 1, last error: 0x0
+2023-07-03 13:40:46, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:46, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:46, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE config file path: \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:46, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:46, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:46, Info                         [recenv.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk1\partition5\Recovery\WindowsRE
+2023-07-03 13:40:46, Info                         [recenv.exe] System is WimBoot: FALSE
+2023-07-03 13:40:46, Info                         [recenv.exe] Exit WinReGetConfig return value: 1, last error: 0x0
+2023-07-03 13:40:46, Info                         Auto launch narrator not specified
+2023-07-03 13:40:46, Info                         Custom boot app not specified
+2023-07-03 13:40:47, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:47, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:47, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE config file path: \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:47, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:47, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk1\partition5\Recovery\WindowsRE
+2023-07-03 13:40:47, Info                         [recenv.exe] System is WimBoot: FALSE
+2023-07-03 13:40:47, Info                         [recenv.exe] Exit WinReGetConfig return value: 1, last error: 0x0
+2023-07-03 13:40:47, Info                         [recenv.exe] Enter WinReCreateLogInstanceEx
+2023-07-03 13:40:47, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:47, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:47, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:47, Info                         [recenv.exe] Exit WinReCreateLogInstanceEx returns error code 0x0
+2023-07-03 13:40:47, Info                         [recenv.exe] Enter WinReGetConfig
+2023-07-03 13:40:47, Info                         [recenv.exe] Parameters: configWinDir: NULL
+2023-07-03 13:40:47, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE config file path: \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:47, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:47, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:47, Info                         [recenv.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk1\partition5\Recovery\WindowsRE
+2023-07-03 13:40:47, Info                         [recenv.exe] System is WimBoot: FALSE
+2023-07-03 13:40:47, Info                         [recenv.exe] Exit WinReGetConfig return value: 1, last error: 0x0
+2023-07-03 13:40:47, Info                         Offline scanning application not configured
+2023-07-03 13:40:47, Error                        Invalid path specified
+2023-07-03 13:40:47, Info                         Copying logs from [X:\windows\Logs\RecEnv] to [D:\WINDOWS\Logs\RecEnv_Ramdisk]
+2023-07-03 13:40:47, Info                         Entering RjvBareMetalResetAvailable
+2023-07-03 13:40:47, Info                         Entering RjvPIsMediaBoot
+2023-07-03 13:40:47, Info                         Launch type is SystemDisk
+2023-07-03 13:40:47, Info                         RjvPIsMediaBoot returning FALSE
+2023-07-03 13:40:47, Info                         RjvBareMetalResetAvailable returning FALSE
+
+2023-07-03 13:40:52, Info                         [recenv.exe] Enter WinReRestoreLogFiles
+2023-07-03 13:40:52, Info                         [recenv.exe]  Using recovery file at \\?\GLOBALROOT\Device\HarddiskVolume9\RECOVERY\WINDOWSRE\ReAgent.xml
+2023-07-03 13:40:52, Info                         [recenv.exe] Update enhanced config info is enabled.
+2023-07-03 13:40:52, Info                         [recenv.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo (In WinPE) Using winre guid from the config file
+2023-07-03 13:40:52, Info                         [recenv.exe] WinRE is installed
+2023-07-03 13:40:52, Info                         [recenv.exe] Enter WinReSetTriggerFile
+2023-07-03 13:40:52, Info                         [recenv.exe] Parameters: DirName: \\?\GLOBALROOT\device\harddisk1\partition5\Recovery\Logs, fDelete: 0
+2023-07-03 13:40:52, Info                         [recenv.exe] Exit WinReSetTriggerFile return error code: 0x0
+2023-07-03 13:40:52, Info                         [recenv.exe] Exit WinReRestoreLogFiles returns 1 with last error: 0x0
+2023-07-03 13:40:52, Info                         Copying logs from [X:\windows\Logs\RecEnv] to [D:\WINDOWS\Logs\RecEnv_Ramdisk]
